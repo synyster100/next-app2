@@ -1,0 +1,105 @@
+.stepContainersChild {
+  width: 461px;
+  height: 345px;
+  position: relative;
+  box-shadow: 0 14px 34px rgba(2, 8, 53, 0.1);
+  border-radius: var(--br-7xs);
+  background-color: var(--white);
+  display: none;
+  max-width: 100%;
+}
+.step1 {
+  margin: 0;
+  width: 111px;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 400;
+  font-family: inherit;
+  background: linear-gradient(90deg, #447ef7, #4b66ea);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  min-width: 111px;
+  z-index: 1;
+}
+.stepLabels {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.bookA45Minute {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 29px;
+  z-index: 1;
+}
+.stepElements {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.gainClarityOn {
+  flex: 1;
+  position: relative;
+  line-height: 170%;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.stepContainers,
+.stepDetails {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.stepDetails {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-11xs);
+  font-size: var(--font-size-lg);
+  color: var(--color-lightslategray);
+  font-family: var(--font-inter);
+}
+.stepContainers {
+  flex: 1;
+  box-shadow: 0 14px 34px rgba(2, 8, 53, 0.1);
+  border-radius: var(--br-7xs);
+  background-color: var(--white);
+  flex-direction: column;
+  padding: var(--padding-27xl) var(--padding-base) var(--padding-17xl);
+  gap: var(--gap-23xl);
+  min-width: 300px;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-darkslateblue-200);
+  font-family: var(--font-abel);
+}
+@media screen and (max-width: 750px) {
+  .step1 {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .step1 {
+    font-size: var(--font-size-5xl);
+    line-height: 29px;
+  }
+  .bookA45Minute {
+    font-size: var(--font-size-lgi);
+    line-height: 23px;
+  }
+  .stepContainers {
+    gap: var(--gap-2xl);
+  }
+}

@@ -1,0 +1,65 @@
+.fileUploadContentChild {
+  width: 400px;
+  height: 231px;
+  position: relative;
+  box-shadow: 0 4px 15px 1px rgba(0, 0, 0, 0.1);
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  display: none;
+  max-width: 100%;
+}
+.div {
+  width: 144px;
+  position: relative;
+  line-height: 120%;
+  display: inline-block;
+  z-index: 3;
+}
+.wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.ofOurHigh {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 158%;
+  font-family: var(--font-inter);
+  color: var(--color-lightslategray);
+  z-index: 3;
+}
+.fileUploadContent {
+  flex: 1;
+  box-shadow: 0 4px 15px 1px rgba(0, 0, 0, 0.1);
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-17xl) var(--padding-12xl) var(--padding-16xl);
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+  min-width: 300px;
+  max-width: 100%;
+  z-index: 2;
+  text-align: center;
+  font-size: var(--font-size-41xl);
+  color: var(--color-royalblue-100);
+  font-family: var(--font-abel);
+}
+@media screen and (max-width: 750px) {
+  .div {
+    font-size: var(--font-size-29xl);
+    line-height: 58px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .div {
+    font-size: var(--font-size-17xl);
+    line-height: 43px;
+  }
+}

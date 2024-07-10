@@ -1,0 +1,135 @@
+.weAreResultsDrivenContainer {
+  flex: 1;
+  position: relative;
+  line-height: 165%;
+  display: inline-block;
+  max-width: 100%;
+}
+.commitmentPoints {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.weDoNot {
+  flex: 1;
+  position: relative;
+  line-height: 165%;
+  display: inline-block;
+  max-width: 100%;
+}
+.selectiveApproach {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.onceWeAssess {
+  align-self: stretch;
+  position: relative;
+  line-height: 165%;
+}
+.commitmentParagraphs {
+  width: 933px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+}
+.commitmentContent,
+.consultationCall {
+  align-self: stretch;
+  box-sizing: border-box;
+}
+.commitmentContent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+  max-width: 100%;
+  font-size: var(--font-size-3xl);
+  font-family: var(--font-inter);
+}
+.consultationCall {
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs) var(--padding-xl);
+}
+.consultationCall,
+.nextSteps,
+.stepNavigation {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.stepNavigation {
+  width: 962px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+.nextSteps {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  color: var(--color-darkslateblue-200);
+}
+.commitment,
+.commitmentContentParent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.commitmentContentParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-61xl);
+}
+.commitment {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-59xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-lightslategray);
+  font-family: var(--font-abel);
+}
+@media screen and (max-width: 750px) {
+  .stepNavigation {
+    gap: var(--gap-xl);
+  }
+  .commitmentContentParent {
+    gap: var(--gap-21xl);
+  }
+  .commitment {
+    padding-left: var(--padding-20xl);
+    padding-right: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .onceWeAssess,
+  .weAreResultsDrivenContainer,
+  .weDoNot {
+    font-size: var(--font-size-lg);
+    line-height: 29px;
+  }
+  .commitmentContentParent {
+    gap: var(--gap-xl);
+  }
+}

@@ -1,0 +1,136 @@
+.text {
+  text-decoration: none;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 573px;
+  left: 300px;
+  line-height: 24px;
+  color: inherit;
+  display: inline-block;
+  min-width: 83.8px;
+}
+.headerParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-17xl);
+  box-sizing: border-box;
+  gap: var(--gap-51xl);
+  max-width: 100%;
+}
+.statsContentChild {
+  height: 330px;
+  width: 1440px;
+  position: relative;
+  background-color: var(--color-royalblue-100);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.statsContentItem {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+.statsContent,
+.statsContentWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.statsContent {
+  flex: 1;
+  background-color: var(--color-royalblue-100);
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: var(--padding-31xl) var(--padding-61xl) var(--padding-30xl);
+  position: relative;
+  gap: var(--gap-21xl);
+}
+.statsContentWrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-2xl);
+}
+.reportSetInputChild {
+  align-self: stretch;
+  width: 1440px;
+  position: relative;
+  background-color: var(--color-royalblue-100);
+  display: none;
+  max-width: 100%;
+}
+.maskGroupIcon {
+  height: 420px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+.reportSetInput,
+.typicalApplicantPoolPage {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.reportSetInput {
+  margin: 0 !important;
+  position: absolute;
+  right: 0;
+  bottom: 3068px;
+  left: 0;
+  background-color: var(--color-royalblue-100);
+  flex-direction: row;
+  max-width: 100%;
+}
+.typicalApplicantPoolPage {
+  position: relative;
+  background-color: var(--color-aliceblue);
+  overflow: hidden;
+  flex-direction: column;
+  gap: var(--gap-81xl);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--white);
+  font-family: var(--font-abel);
+}
+@media screen and (max-width: 750px) {
+  .headerParent {
+    gap: var(--gap-16xl);
+  }
+  .statsContent {
+    gap: var(--gap-xl);
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .typicalApplicantPoolPage {
+    gap: var(--gap-31xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .text {
+    font-size: var(--font-size-lg);
+    line-height: 19px;
+  }
+  .headerParent {
+    gap: var(--gap-mid);
+  }
+  .typicalApplicantPoolPage {
+    gap: var(--gap-6xl);
+  }
+}

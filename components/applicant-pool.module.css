@@ -1,0 +1,361 @@
+.whatIsThe {
+  margin: 0;
+  width: 603px;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.theTypicalApplicant {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 172%;
+  font-family: var(--font-inter);
+  color: var(--color-lightslategray);
+}
+.whatIsTheTypicalApplicantParent {
+  align-self: stretch;
+  box-shadow: 0 14px 34px rgba(2, 8, 53, 0.1);
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.partsOfThe {
+  margin: 0;
+  width: 603px;
+  position: relative;
+  font-size: var(--font-size-11xl);
+  line-height: 120%;
+  font-weight: 400;
+  font-family: var(--font-abel);
+  color: var(--color-darkslateblue-200);
+  display: inline-block;
+  max-width: 100%;
+}
+.checkIconTick,
+.gpa {
+  position: relative;
+  flex-shrink: 0;
+}
+.checkIconTick {
+  height: 26px;
+  width: 26px;
+  border-radius: 41.39px;
+  overflow: hidden;
+}
+.gpa {
+  width: 598px;
+  letter-spacing: -0.3px;
+  line-height: 136.25%;
+  display: flex;
+  align-items: center;
+  max-width: 374%;
+}
+.checkIconTickParent {
+  width: 160px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.checkIconTick1,
+.testScores {
+  position: relative;
+  flex-shrink: 0;
+}
+.checkIconTick1 {
+  height: 26px;
+  width: 26px;
+  border-radius: 41.39px;
+  overflow: hidden;
+}
+.testScores {
+  width: 598px;
+  letter-spacing: -0.3px;
+  line-height: 136.25%;
+  display: flex;
+  align-items: center;
+  max-width: 374%;
+}
+.checkIconTickGroup,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.checkIconTickGroup {
+  width: 160px;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.frameParent {
+  align-self: stretch;
+  padding: 0 var(--padding-265xl) 0 0;
+  gap: var(--gap-21xl);
+}
+.checkIconTick2,
+.classRigor {
+  position: relative;
+  flex-shrink: 0;
+}
+.checkIconTick2 {
+  height: 26px;
+  width: 26px;
+  border-radius: 41.39px;
+  overflow: hidden;
+}
+.classRigor {
+  width: 598px;
+  letter-spacing: -0.3px;
+  line-height: 136.25%;
+  display: flex;
+  align-items: center;
+  max-width: 374%;
+}
+.checkIconTickContainer {
+  width: 160px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.checkIconTick3 {
+  height: 26px;
+  width: 26px;
+  position: relative;
+  border-radius: 41.39px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.involvementInExtracurricular {
+  width: 372px;
+  position: relative;
+  letter-spacing: -0.3px;
+  line-height: 136.25%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  max-width: 233%;
+}
+.frameDiv,
+.frameGroup,
+.partsContent,
+.poolParts {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv {
+  width: 160px;
+  flex-direction: row;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.frameGroup,
+.partsContent,
+.poolParts {
+  align-self: stretch;
+}
+.frameGroup {
+  flex-direction: row;
+  padding: 0 var(--padding-265xl) 0 0;
+  gap: var(--gap-21xl);
+}
+.partsContent,
+.poolParts {
+  flex-direction: column;
+  max-width: 100%;
+}
+.partsContent {
+  gap: var(--gap-sm);
+}
+.poolParts {
+  box-shadow: 0 14px 34px rgba(2, 8, 53, 0.1);
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  overflow: hidden;
+  padding: var(--padding-11xl) var(--padding-xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+  color: var(--color-lightslategray);
+  font-family: var(--font-inter);
+}
+.amIIn {
+  margin: 0;
+  width: 603px;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.thisDataIs {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 172%;
+  font-family: var(--font-inter);
+  color: var(--color-lightslategray);
+}
+.amIInTheTypicalApplicantParent,
+.poolDefinition {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.amIInTheTypicalApplicantParent {
+  align-self: stretch;
+  box-shadow: 0 14px 34px rgba(2, 8, 53, 0.1);
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  overflow: hidden;
+  padding: var(--padding-11xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.poolDefinition {
+  flex: 1;
+  gap: var(--gap-6xl);
+  min-width: 445px;
+}
+.fileUploadIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.fileUploadWrapper {
+  height: 567px;
+  width: 505px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-4xl);
+  box-sizing: border-box;
+  min-width: 505px;
+  max-width: 100%;
+}
+.applicantPool,
+.poolContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.poolContent {
+  flex: 1;
+  align-items: flex-end;
+  gap: var(--gap-72xl);
+}
+.applicantPool {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 var(--padding-61xl) var(--padding-3xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslateblue-200);
+  font-family: var(--font-abel);
+}
+@media screen and (max-width: 1250px) {
+  .fileUploadIcon {
+    align-self: stretch;
+    width: auto;
+  }
+  .fileUploadWrapper {
+    flex: 1;
+  }
+  .poolContent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .partsOfThe,
+  .whatIsThe {
+    font-size: var(--font-size-5xl);
+    line-height: 29px;
+  }
+  .frameGroup,
+  .frameParent {
+    flex-wrap: wrap;
+    gap: var(--gap-xl);
+    padding-right: var(--padding-123xl);
+    box-sizing: border-box;
+  }
+  .amIIn {
+    font-size: var(--font-size-5xl);
+    line-height: 29px;
+  }
+  .fileUploadWrapper,
+  .poolDefinition {
+    min-width: 100%;
+  }
+  .poolContent {
+    gap: var(--gap-26xl);
+  }
+  .applicantPool {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .partsOfThe,
+  .whatIsThe {
+    font-size: var(--font-size-lg);
+    line-height: 22px;
+  }
+  .gpa,
+  .testScores {
+    font-size: var(--font-size-base);
+    line-height: 22px;
+  }
+  .frameParent {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .classRigor,
+  .involvementInExtracurricular {
+    font-size: var(--font-size-base);
+    line-height: 22px;
+  }
+  .frameGroup {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .amIIn {
+    font-size: var(--font-size-lg);
+    line-height: 22px;
+  }
+  .poolContent {
+    gap: var(--gap-4xl);
+  }
+}

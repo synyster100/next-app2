@@ -1,0 +1,314 @@
+.reportSetInputChild {
+  width: 460px;
+  height: 291px;
+  position: relative;
+  box-shadow: 0 4px 15px 1px rgba(0, 0, 0, 0.1);
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  display: none;
+  max-width: 100%;
+}
+.ourProgramsAre {
+  width: 360px;
+  position: relative;
+  line-height: 120%;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 3;
+}
+.checkIconTick {
+  height: 22px;
+  width: 22px;
+  position: relative;
+  border-radius: 41.39px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.wantAPredictable {
+  position: relative;
+  letter-spacing: -0.3px;
+  line-height: 25px;
+}
+.fitItems {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.checkIconTick1 {
+  height: 22px;
+  width: 22px;
+  position: relative;
+  border-radius: 41.39px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.understandThatAdmissions {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.3px;
+  line-height: 136.25%;
+  display: inline-block;
+  min-width: 249px;
+  max-width: 100%;
+}
+.approachItems {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.checkIconTick2 {
+  height: 22px;
+  width: 22px;
+  position: relative;
+  border-radius: 41.39px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.knowTheyCan {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.3px;
+  line-height: 136.25%;
+  display: inline-block;
+  min-width: 249px;
+  max-width: 100%;
+}
+.criteriaItems,
+.outcomeItems {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.outcomeItems {
+  flex-direction: row;
+  padding: 0 var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.criteriaItems {
+  flex-direction: column;
+  gap: var(--gap-xs);
+  z-index: 3;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-lightslategray);
+  font-family: var(--font-inter);
+}
+.reportSetInput,
+.reportSetInputItem {
+  box-shadow: 0 4px 15px 1px rgba(0, 0, 0, 0.1);
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  max-width: 100%;
+}
+.reportSetInput {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xl) var(--padding-xl) var(--padding-12xl)
+    var(--padding-2xl);
+  box-sizing: border-box;
+  gap: var(--gap-10xl);
+  min-width: 299px;
+  z-index: 2;
+}
+.reportSetInputItem {
+  width: 460px;
+  height: 291px;
+  position: relative;
+  display: none;
+}
+.ourProgramsAre1 {
+  width: 399px;
+  position: relative;
+  line-height: 120%;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 3;
+}
+.minimumItemChild {
+  height: 22px;
+  width: 22px;
+  position: relative;
+}
+.wantToLeave {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.3px;
+  line-height: 25px;
+  display: inline-block;
+  max-width: calc(100% - 32px);
+}
+.minimumItem {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.minimumItemItem {
+  height: 22px;
+  width: 22px;
+  position: relative;
+}
+.justWantHelp {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.3px;
+  line-height: 25px;
+  display: inline-block;
+  max-width: calc(100% - 32px);
+}
+.minimumItem1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.minimumItemInner {
+  height: 22px;
+  width: 22px;
+  position: relative;
+}
+.areStuckLooping {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.3px;
+  line-height: 136.25%;
+  display: inline-block;
+  min-width: 249px;
+  max-width: 100%;
+}
+.minimumItem2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.minimumIcon {
+  height: 22px;
+  width: 22px;
+  position: relative;
+}
+.wantToDo {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.3px;
+  line-height: 136.25%;
+  display: inline-block;
+  min-width: 249px;
+  max-width: 100%;
+}
+.minimumItem3,
+.minimumItemParent {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.minimumItem3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.minimumItemParent {
+  flex-direction: column;
+  gap: var(--gap-xs);
+  z-index: 3;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-lightslategray);
+  font-family: var(--font-inter);
+}
+.minimumItemParent,
+.programCriteria,
+.programFit,
+.reportSetInput1 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.reportSetInput1 {
+  flex: 1;
+  box-shadow: 0 4px 15px 1px rgba(0, 0, 0, 0.1);
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-6xl) var(--padding-xl) var(--padding-6xl)
+    var(--padding-2xl);
+  box-sizing: border-box;
+  gap: var(--gap-10xl);
+  min-width: 299px;
+  z-index: 2;
+}
+.programCriteria,
+.programFit {
+  flex-direction: row;
+}
+.programCriteria {
+  width: 970px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+}
+.programFit {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-26xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-3xl);
+  color: var(--color-darkslateblue-200);
+  font-family: var(--font-abel);
+}
+@media screen and (max-width: 750px) {
+  .programCriteria {
+    gap: var(--gap-6xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .ourProgramsAre {
+    font-size: var(--font-size-lg);
+    line-height: 21px;
+  }
+  .approachItems,
+  .outcomeItems {
+    flex-wrap: wrap;
+  }
+  .ourProgramsAre1 {
+    font-size: var(--font-size-lg);
+    line-height: 21px;
+  }
+  .minimumItem2,
+  .minimumItem3 {
+    flex-wrap: wrap;
+  }
+}

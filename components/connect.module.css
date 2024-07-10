@@ -1,0 +1,320 @@
+.connectContentIcon {
+  width: 456px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.weWantTo {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 400;
+  font-family: inherit;
+  background: linear-gradient(90deg, #447ef7, #4b66ea);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.checkIconTick,
+.readyToInvest {
+  position: relative;
+  flex-shrink: 0;
+}
+.checkIconTick {
+  height: 26px;
+  width: 26px;
+  border-radius: 41.39px;
+  overflow: hidden;
+}
+.readyToInvest {
+  width: 731px;
+  letter-spacing: -0.3px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  max-width: calc(100% - 46px);
+}
+.criteriaCheckboxes {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.checkIconTick1 {
+  height: 26px;
+  width: 26px;
+  position: relative;
+  border-radius: 41.39px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.willingToTrust {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.3px;
+  line-height: 169%;
+  display: inline-block;
+  min-width: 456px;
+  max-width: 100%;
+}
+.criteriaCheckboxes1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.checkIconTick2 {
+  height: 26px;
+  width: 26px;
+  position: relative;
+  border-radius: 41.39px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.ableToSurrender {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.3px;
+  line-height: 169%;
+  display: inline-block;
+  min-width: 456px;
+  max-width: 100%;
+}
+.criteriaCheckboxes2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.connectHeading,
+.investmentCriteria {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.investmentCriteria {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-sm);
+  max-width: 100%;
+  font-size: var(--font-size-3xl);
+  font-family: var(--font-inter);
+}
+.connectHeading {
+  gap: var(--gap-21xl);
+}
+.connectContentParent,
+.connectHeading,
+.connectPrompt {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.connectPrompt {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-43xl) 0 0;
+  box-sizing: border-box;
+  min-width: 493px;
+}
+.connectContentParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-51xl);
+}
+.moreOpportunitiesAt {
+  margin: 0;
+  width: 631px;
+  height: 144px;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 400;
+  font-family: inherit;
+  background: linear-gradient(90deg, #447ef7, #4b66ea);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  max-width: 100%;
+}
+.ifYoureGoing,
+.weGetResults {
+  align-self: stretch;
+  position: relative;
+  line-height: 172%;
+  font-weight: 500;
+}
+.opportunityContent,
+.opportunityMessage,
+.resultsInvestment {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.resultsInvestment {
+  align-self: stretch;
+  gap: var(--gap-xs);
+  font-size: var(--font-size-3xl);
+  font-family: var(--font-inter);
+}
+.opportunityContent,
+.opportunityMessage {
+  max-width: 100%;
+}
+.opportunityMessage {
+  align-self: stretch;
+  gap: var(--gap-11xl);
+}
+.opportunityContent {
+  flex: 1;
+  padding: var(--padding-39xl) 0 0;
+  box-sizing: border-box;
+  min-width: 419px;
+}
+.placeholderContainerIcon {
+  width: 456px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.connect,
+.opportunity,
+.opportunityContentParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.opportunityContentParent {
+  flex: 1;
+  justify-content: center;
+  gap: var(--gap-61xl);
+}
+.connect,
+.opportunity {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-33xl);
+  box-sizing: border-box;
+}
+.connect {
+  flex-direction: column;
+  padding: 0 0 var(--padding-xl);
+  gap: var(--gap-41xl);
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-lightslategray);
+  font-family: var(--font-abel);
+}
+@media screen and (max-width: 1250px) {
+  .connectContentIcon {
+    flex: 1;
+  }
+  .connectContentParent {
+    flex-wrap: wrap;
+  }
+  .placeholderContainerIcon {
+    flex: 1;
+  }
+  .opportunityContentParent {
+    flex-wrap: wrap;
+    gap: var(--gap-21xl);
+  }
+  .opportunity {
+    padding-left: var(--padding-7xl);
+    padding-right: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .weWantTo {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+  .willingToTrust {
+    min-width: 100%;
+  }
+  .criteriaCheckboxes1 {
+    flex-wrap: wrap;
+  }
+  .ableToSurrender {
+    min-width: 100%;
+  }
+  .criteriaCheckboxes2 {
+    flex-wrap: wrap;
+  }
+  .connectHeading {
+    gap: var(--gap-xl);
+  }
+  .connectPrompt {
+    min-width: 100%;
+  }
+  .connectContentParent {
+    gap: var(--gap-16xl);
+  }
+  .moreOpportunitiesAt {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+  .opportunityContent {
+    min-width: 100%;
+  }
+  .opportunityContentParent {
+    gap: var(--gap-xl);
+  }
+  .connect {
+    gap: var(--gap-11xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .weWantTo {
+    font-size: var(--font-size-5xl);
+    line-height: 29px;
+  }
+  .readyToInvest {
+    font-size: var(--font-size-lg);
+    line-height: 24px;
+  }
+  .ableToSurrender,
+  .willingToTrust {
+    font-size: var(--font-size-lg);
+    line-height: 30px;
+  }
+  .connectPrompt {
+    padding-top: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .connectContentParent {
+    gap: var(--gap-mid);
+  }
+  .moreOpportunitiesAt {
+    font-size: var(--font-size-5xl);
+    line-height: 29px;
+  }
+  .ifYoureGoing,
+  .weGetResults {
+    font-size: var(--font-size-lg);
+    line-height: 30px;
+  }
+  .opportunityContent {
+    padding-top: var(--padding-19xl);
+    box-sizing: border-box;
+  }
+}

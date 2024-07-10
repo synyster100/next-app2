@@ -1,0 +1,72 @@
+.listContentChild {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.05);
+  border-radius: var(--br-11xl);
+  background-color: var(--color-royalblue-200);
+}
+.testScores {
+  margin: 0;
+  width: 207px;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.afterUtilizingOur,
+.unlikeGpaTest {
+  margin: 0;
+}
+.unlikeGpaTestContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  line-height: 172%;
+  font-family: var(--font-inter);
+  z-index: 1;
+}
+.listContent {
+  width: 551px;
+  margin: 0 !important;
+  position: absolute;
+  top: 452px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-27xl) var(--padding-xl) var(--padding-27xl)
+    var(--padding-10xl);
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--white);
+  font-family: var(--font-abel);
+}
+@media screen and (max-width: 750px) {
+  .testScores {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .testScores {
+    font-size: var(--font-size-5xl);
+    line-height: 29px;
+  }
+  .unlikeGpaTestContainer {
+    font-size: var(--font-size-lg);
+    line-height: 30px;
+  }
+}

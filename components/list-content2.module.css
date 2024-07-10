@@ -1,0 +1,72 @@
+.listBackgrounds {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 14px 30px rgba(2, 8, 53, 0.05);
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gray-200);
+}
+.gpa,
+.havingTheHighest {
+  position: relative;
+  z-index: 1;
+}
+.gpa {
+  margin: 0;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 400;
+  font-family: inherit;
+  background: linear-gradient(90deg, #447ef7, #4b66ea);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  min-width: 79px;
+}
+.havingTheHighest {
+  align-self: stretch;
+  font-size: var(--font-size-3xl);
+  line-height: 172%;
+  font-family: var(--font-inter);
+}
+.listContent {
+  width: 551px;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-27xl) var(--padding-xl) var(--padding-27xl)
+    var(--padding-10xl);
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-lightslategray);
+  font-family: var(--font-abel);
+}
+@media screen and (max-width: 750px) {
+  .gpa {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .gpa {
+    font-size: var(--font-size-5xl);
+    line-height: 29px;
+  }
+  .havingTheHighest {
+    font-size: var(--font-size-lg);
+    line-height: 30px;
+  }
+}

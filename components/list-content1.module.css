@@ -1,0 +1,94 @@
+.listContentChild {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.05);
+  border-radius: var(--br-11xl);
+  background-color: var(--color-royalblue-200);
+}
+.tip {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 57px;
+  z-index: 1;
+}
+.listTips {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-19xl) 0 0;
+}
+.frameChild {
+  height: 119.3px;
+  width: 115.5px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.listTipsParent {
+  width: 481.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.evenJuniorsWho {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  line-height: 172%;
+  font-family: var(--font-inter);
+  z-index: 1;
+}
+.listContent {
+  width: 551px;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  left: 631px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xl) var(--padding-lgi) var(--padding-66xl)
+    var(--padding-21xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl-7);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--white);
+  font-family: var(--font-abel);
+}
+@media screen and (max-width: 750px) {
+  .tip {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .tip {
+    font-size: var(--font-size-5xl);
+    line-height: 29px;
+  }
+  .listTipsParent {
+    flex-wrap: wrap;
+  }
+  .evenJuniorsWho {
+    font-size: var(--font-size-lg);
+    line-height: 30px;
+  }
+}

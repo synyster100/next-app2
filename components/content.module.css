@@ -1,0 +1,187 @@
+.beingInThe,
+.eachUniversityIs {
+  margin: 0;
+  position: relative;
+  font-weight: 400;
+}
+.eachUniversityIs {
+  align-self: stretch;
+  font-size: inherit;
+  line-height: 53px;
+  font-family: inherit;
+  background: linear-gradient(90deg, #447ef7, #4b66ea);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.beingInThe {
+  width: 644px;
+  font-size: var(--font-size-9xl);
+  line-height: 143.86%;
+  font-family: var(--font-inter);
+  display: inline-block;
+  max-width: 100%;
+}
+.eachUniversityIsDifferentParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.avatar {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--white);
+  text-align: left;
+}
+.avatarWrapper,
+.frameGroup,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.avatarWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-smi) var(--padding-31xl);
+  background-color: transparent;
+  box-shadow: 0 24px 76px rgba(96, 93, 255, 0.3);
+  border-radius: var(--br-5xs);
+  background: linear-gradient(90deg, #447ef7, #4b66ea 53.4%, #4b66ea);
+  overflow: hidden;
+  flex-direction: row;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.frameGroup,
+.frameWrapper {
+  flex-direction: column;
+}
+.frameGroup {
+  align-self: stretch;
+  gap: var(--gap-21xl);
+}
+.frameWrapper {
+  flex: 1;
+  padding: var(--padding-95xl) 0 0;
+  box-sizing: border-box;
+  min-width: 448px;
+}
+.imageContentChild {
+  position: absolute;
+  top: 0;
+  left: 22px;
+  border-radius: var(--br-18xl) var(--br-18xl) var(--br-18xl) var(--br-247xl);
+  background: linear-gradient(81.39deg, #3e86f6, #f0f9fe);
+  width: 506px;
+  height: 448px;
+}
+.imageContentItem {
+  position: absolute;
+  top: 22px;
+  left: 0;
+  border-radius: 37.25px;
+  width: 506px;
+  height: 449px;
+  object-fit: cover;
+  z-index: 1;
+}
+.imageContentInner {
+  position: absolute;
+  top: 191px;
+  left: 208px;
+  width: 90px;
+  height: 90px;
+  z-index: 2;
+}
+.imageContent {
+  height: 471px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.introImage {
+  width: 528px;
+  min-width: 528px;
+}
+.content,
+.frameParent,
+.introImage {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  gap: var(--gap-43xl);
+}
+.content {
+  align-self: stretch;
+  padding: 0 var(--padding-61xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-25xl);
+  color: var(--color-black);
+  font-family: var(--font-abel);
+}
+@media screen and (max-width: 1250px) {
+  .introImage {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .eachUniversityIs {
+    font-size: var(--font-size-16xl);
+    line-height: 42px;
+  }
+  .frameGroup {
+    gap: var(--gap-xl);
+  }
+  .frameWrapper,
+  .introImage {
+    min-width: 100%;
+  }
+  .frameParent {
+    gap: var(--gap-12xl);
+  }
+  .content {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .beingInThe,
+  .eachUniversityIs {
+    font-size: var(--font-size-7xl);
+    line-height: 32px;
+  }
+  .beingInThe {
+    font-size: var(--font-size-3xl);
+  }
+  .avatarWrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .frameWrapper {
+    padding-top: var(--padding-55xl);
+    box-sizing: border-box;
+  }
+  .frameParent {
+    gap: var(--gap-mini);
+  }
+}
